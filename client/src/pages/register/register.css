@@ -1,0 +1,76 @@
+.register {
+  height: calc(100vh - 50px);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(
+      rgba(255, 255, 255, 0.2),
+      rgba(255, 255, 255, 0.2)
+    ),
+    /* url("https://images.pexels.com/photos/317355/pexels-photo-317355.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"); */
+      url("https://healinghutclinic.com/wp-content/uploads/2021/11/320.png");
+  background-size: cover;
+}
+
+.registerTitle {
+  font-size: 50px;
+  font-weight: 600;
+}
+
+.registerForm {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.registerForm > label {
+  margin: 10px 10px;
+  color: black;
+  font-weight: 600;
+  letter-spacing: 2px;
+  font-size: 20px;
+}
+
+.registerInput {
+  width: 300px;
+  padding: 10px;
+  background-color: white;
+  border: none;
+}
+
+.registerButton {
+  width: 150px;
+  margin-top: 20px;
+  cursor: pointer;
+  background-color: rgb(3, 151, 151);
+  border: none;
+  color: white;
+  font-size: 16px;
+  border-radius: 10px;
+  padding: 10px;
+  margin-left: 80px;
+}
+
+.registerButton:hover {
+  background-color: rgb(8, 122, 122);
+}
+
+.registerLoginButton {
+  width: 100px;
+  position: absolute;
+  margin-top: 20px;
+  margin-right: 100px;
+  top: 60px;
+  right: 20px;
+  background-color: lightcoral;
+  cursor: pointer;
+  border: none;
+  padding: 10px;
+  color: white;
+  border-radius: 10px;
+}
+
+.registerLoginButton:hover {
+  background-color: rgb(238, 102, 102);
+}

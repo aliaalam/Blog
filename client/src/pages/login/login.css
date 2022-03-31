@@ -1,0 +1,84 @@
+.login {
+  height: calc(100vh - 50px);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(
+      rgba(255, 255, 255, 0.1),
+      rgba(255, 255, 255, 0.3)
+    ),
+    /* url("https://images.pexels.com/photos/768473/pexels-photo-768473.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500"); */
+      url("https://wallpapercave.com/wp/wp2670841.jpg");
+  background-size: cover;
+}
+
+.loginTitle {
+  font-size: 50px;
+  font-weight: 600;
+  letter-spacing: 2px;
+}
+
+.loginForm {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.loginForm > label {
+  margin: 10px 0;
+  font-size: 20px;
+  font-weight: 600;
+  letter-spacing: 2px;
+}
+
+.loginInput {
+  width: 300px;
+  padding: 10px;
+  background-color: white;
+  border: none;
+}
+
+.loginButton {
+  margin-top: 20px;
+  cursor: pointer;
+  background-color: rgb(245, 126, 126);
+  border: none;
+  color: white;
+  border-radius: 10px;
+  padding: 10px;
+  font-size: 16px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  width: 150px;
+  margin-left: 80px;
+}
+
+.loginButton:hover {
+  background-color: rgb(206, 89, 89);
+}
+
+/* .loginButton:disabled {
+  cursor: not-allowed;
+  background-color: rgb(252, 173, 173);
+} */
+
+.loginRegisterButton {
+  position: absolute;
+  top: 60px;
+  right: 20px;
+  background-color: rgb(13, 173, 173);
+  cursor: pointer;
+  border: none;
+  padding: 10px;
+  color: white;
+  border-radius: 10px;
+  width: 150px;
+  letter-spacing: 2px;
+  margin-top: 30px;
+  margin-right: 150px;
+}
+
+.loginRegisterButton:hover {
+  background-color: rgb(8, 122, 122);
+}
